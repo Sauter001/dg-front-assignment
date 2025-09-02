@@ -1,0 +1,22 @@
+{
+  "name": "dg-assignment",
+  "version": "1.0.0",
+  "description": "과제용",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sauter001/dg-front-assignment.git"
+  },
+  "author": "lsj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sauter001/dg-front-assignment/issues"
+  },
+  "homepage": "https://github.com/Sauter001/dg-front-assignment#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
