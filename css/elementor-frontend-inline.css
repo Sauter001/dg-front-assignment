@@ -1171,7 +1171,7 @@ h1.entry-title {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("images/lofi-main.jpg");
+  background-image: url("../images/lofi-main.jpg");
   filter: brightness(70%);
   background-position: top center;
   background-repeat: no-repeat;
@@ -1213,7 +1213,7 @@ h1.entry-title {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("images/intro-img.png");
+  background-image: url("../images/intro-img.png");
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
