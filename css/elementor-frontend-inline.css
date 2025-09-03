@@ -1171,7 +1171,7 @@ h1.entry-title {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/lofi-main.jpg");
+  background-image: url("images/lofi-main.jpg");
   filter: brightness(70%);
   background-position: top center;
   background-repeat: no-repeat;
@@ -1620,7 +1620,7 @@ h1.entry-title {
 .elementor-12
   .elementor-element.elementor-element-780f074
   > .elementor-background-overlay {
-  background-image: url("/images/music-introduction-bg.png");
+  background-image: url("images/music-introduction-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1850,7 +1850,6 @@ h1.entry-title {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("https://ld-wp73.template-help.com/wordpress/prod_25772/v3/wp-content/uploads/2019/09/4.png");
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1898,7 +1897,6 @@ h1.entry-title {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("https://ld-wp73.template-help.com/wordpress/prod_25772/v3/wp-content/uploads/2019/09/5.png");
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2247,7 +2245,6 @@ h1.entry-title {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("https://ld-wp73.template-help.com/wordpress/prod_25772/v3/wp-content/uploads/2019/09/6.png");
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2820,7 +2817,6 @@ h1.entry-title {
 .elementor-12
   .elementor-element.elementor-element-ee83ef7
   > .elementor-background-overlay {
-  background-image: url("https://ld-wp73.template-help.com/wordpress/prod_25772/v3/wp-content/uploads/2019/09/7.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
