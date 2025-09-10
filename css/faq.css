@@ -2,6 +2,19 @@ body {
   background-color: black;
 }
 
+.elementor-heading-title {
+  text-align: center;
+  color: white !important;
+  font-size: 3rem;
+  padding: 20px 0;
+}
+
+.elementor-divider {
+  width: 100px;
+  border-bottom: 2px solid white;
+  margin: 0 auto;
+}
+
 #faq-container {
   max-width: 900px;
   margin: 0 auto;
