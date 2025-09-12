@@ -802,6 +802,30 @@
                 </p>
               </div>
             </section>
+            <section id="where-section">
+              <h2>찾아오시는 길</h2>
+              <div id="map" style="width: 500px; height: 400px"></div>
+              <script
+                type="text/javascript"
+                src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9f40faf0eebee78e048eef62fe60d651"
+              ></script>
+              <script>
+                var container = document.getElementById("map");
+                var options = {
+                  center: new kakao.maps.LatLng(128.627035, 35.8808253),
+                  level: 3,
+                };
+
+                var map = new kakao.maps.Map(container, options);
+                // 지도를 클릭한 위치에 표출할 마커입니다
+                var marker = new kakao.maps.Marker({
+                  // 지도 중심좌표에 마커를 생성합니다
+                  position: map.getCenter(),
+                });
+                // 지도에 마커를 표시합니다
+                marker.setMap(map);
+              </script>
+            </section>
           </div>
         </article>
         <!-- #post-12 -->
@@ -1305,26 +1329,5 @@
       src="https://ld-wp73.template-help.com/wordpress/prod_25772/v3/wp-content/plugins/jet-tricks/assets/js/jet-tricks-frontend.js?ver=1.4.7"
       id="jet-tricks-frontend-js"
     ></script>
-    <!-- Google Tag Manager --><noscript
-      ><iframe
-        src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-P9FT69");
-    </script>
-    <!-- End Google Tag Manager -->
   </body>
 </html>
